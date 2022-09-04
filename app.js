@@ -13,4 +13,4 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/', routes)
 
-app.listen(3001)
+app.listen(3000)
