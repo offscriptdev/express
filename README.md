@@ -8,5 +8,14 @@ This folder hosts all the resources that are available to the general public, li
 ### src
 This folder contains all the parts that make the app work
 
+#### config
+#### controllers
+#### middleware
+#### models
+#### routes
+#### services
+#### templates
+#### utils
+
 ### tests
 This folder houses the test suites for ensuring the app is working as expected.
