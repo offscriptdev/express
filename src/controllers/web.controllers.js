@@ -1,7 +1,7 @@
 // controller functions for web routes
-function sendJson(req, res) {
+function helloWorld(req, res) {
     res.json({
-        'path': '/'
+        'hello': 'world',
     });
 }
 
@@ -11,4 +11,4 @@ function send404(req, res) {
     });
 }
 
-export { sendJson , send404 }
+export { helloWorld , send404 }
